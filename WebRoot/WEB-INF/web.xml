@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app>
+  <servlet>
+    <servlet-name>stuServlet</servlet-name>
+    <servlet-class>cn.dmego.web.stuServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>couServlet</servlet-name>
+    <servlet-class>cn.dmego.web.couServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>scServlet</servlet-name>
+    <servlet-class>cn.dmego.web.scServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>infoServlet</servlet-name>
+    <servlet-class>cn.dmego.web.infoServlet</servlet-class>
+  </servlet>
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>stuServlet</servlet-name>
+    <url-pattern>/student/stuServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>couServlet</servlet-name>
+    <url-pattern>/course/couServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>scServlet</servlet-name>
+    <url-pattern>/sc/scServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>infoServlet</servlet-name>
+    <url-pattern>/info/infoServlet</url-pattern>
+  </servlet-mapping>
+
+</web-app>
